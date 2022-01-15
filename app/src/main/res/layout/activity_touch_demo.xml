@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sherry.yuan.touchdemoapp.TouchDemoScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightest_blue"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".TouchDemoActivity">
+
+    <com.sherry.yuan.touchdemoapp.TouchDemoFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue"
+        android:padding="16dp">
+
+
+        <com.sherry.yuan.touchdemoapp.TouchDemoViewA
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:background="@color/med_blue" />
+
+        <com.sherry.yuan.touchdemoapp.TouchDemoViewB
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:background="@color/mauve" />
+
+    </com.sherry.yuan.touchdemoapp.TouchDemoFrameLayout>
+
+</com.sherry.yuan.touchdemoapp.TouchDemoScrollView>
