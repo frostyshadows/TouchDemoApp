@@ -12,7 +12,6 @@ class TouchDemoFrameLayout(
 
     override fun dispatchTouchEvent(ev: MotionEvent): Boolean {
         TouchDemoLogger.logTouch(
-            context = context,
             action = ev.action,
             viewName = VIEW_NAME,
             function =  "dispatchTouchEvent",
@@ -22,7 +21,6 @@ class TouchDemoFrameLayout(
 
     override fun onInterceptTouchEvent(ev: MotionEvent): Boolean {
         TouchDemoLogger.logTouch(
-            context = context,
             action = ev.action,
             viewName = VIEW_NAME,
             function =  "onInterceptTouchEvent",
@@ -32,7 +30,6 @@ class TouchDemoFrameLayout(
 
     override fun onTouchEvent(event: MotionEvent): Boolean {
         TouchDemoLogger.logTouch(
-            context = context,
             action = event.action,
             viewName = VIEW_NAME,
             function =  "onTouchEvent",
