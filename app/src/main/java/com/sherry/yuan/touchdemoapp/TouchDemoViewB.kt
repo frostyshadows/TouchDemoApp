@@ -12,7 +12,6 @@ class TouchDemoViewB(
 
     override fun dispatchTouchEvent(ev: MotionEvent): Boolean {
         TouchDemoLogger.logTouch(
-            context = context,
             action = ev.action,
             viewName = VIEW_NAME,
             function = "dispatchTouchEvent",
@@ -22,7 +21,6 @@ class TouchDemoViewB(
 
     override fun onTouchEvent(event: MotionEvent): Boolean {
         TouchDemoLogger.logTouch(
-            context = context,
             action = event.action,
             viewName = VIEW_NAME,
             function = "onTouchEvent",
@@ -31,6 +29,6 @@ class TouchDemoViewB(
     }
 
     companion object {
-        private const val VIEW_NAME = "View B"
+        const val VIEW_NAME = "View B"
     }
 }

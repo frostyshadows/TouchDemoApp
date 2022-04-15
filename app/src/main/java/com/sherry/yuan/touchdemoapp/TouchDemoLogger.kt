@@ -7,7 +7,7 @@ import timber.log.Timber
 
 object TouchDemoLogger {
 
-    fun logTouch(context: Context, action: Int, viewName: String, function: String) {
+    fun logTouch(action: Int, viewName: String, function: String) {
         val actionName = when (action) {
             MotionEvent.ACTION_DOWN -> "ACTION_DOWN"
             MotionEvent.ACTION_CANCEL -> "ACTION_CANCEL"

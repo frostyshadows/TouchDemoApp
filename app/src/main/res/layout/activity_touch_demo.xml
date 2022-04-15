@@ -16,11 +16,13 @@
 
 
         <com.sherry.yuan.touchdemoapp.TouchDemoViewA
+            android:id="@+id/view_a"
             android:layout_width="match_parent"
             android:layout_height="1000dp"
             android:background="@color/med_blue" />
 
         <com.sherry.yuan.touchdemoapp.TouchDemoViewB
+            android:id="@+id/view_b"
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_gravity="center"
